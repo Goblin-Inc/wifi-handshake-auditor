@@ -1,14 +1,16 @@
 # Wi-Fi Handshake Auditor
 
-Интерактивный Bash-скрипт для автоматизации аудита безопасности беспроводных сетей WPA/WPA2 на базе пакета `aircrack-ng`.
+> 🌐 **Language:** **English** | [Русский (README_Ru.md)](README_Ru.md)
 
-## ✨ Возможности
-- 📡 Автоматическая проверка зависимостей и перевод беспроводного интерфейса в режим мониторинга (`airmon-ng`).
-- 🔍 Сканирование доступных точек доступа и клиентов (`airodump-ng`).
-- 🤝 Захват WPA/WPA2 Handshake и проверка устойчивости пароля по словарю (`aircrack-ng`).
-- 🧹 Корректное восстановление штатного режима работы сетевой карты после завершения.
+An interactive Bash script that automates WPA/WPA2 wireless security auditing using the `aircrack-ng` suite.
 
-## 🚀 Запуск
+## ✨ Features
+- 📡 Automatically verifies required dependencies and switches the wireless interface into monitor mode (`airmon-ng`).
+- 🔍 Scans nearby access points and connected clients (`airodump-ng`).
+- 🤝 Captures WPA/WPA2 4-way handshakes and audits password strength against a wordlist (`aircrack-ng`).
+- 🧹 Cleanly restores the network interface back to managed mode upon exit.
+
+## 🚀 Usage
 
 ```bash
 sudo ./wifi_auditor.sh
