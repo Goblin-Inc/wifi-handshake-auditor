@@ -15,3 +15,6 @@ An interactive Bash script that automates WPA/WPA2 wireless security auditing us
 ```bash
 sudo ./wifi_auditor.sh
 ```
+
+## 📄 License
+MIT © [Goblin-Inc](https://github.com/Goblin-Inc)
