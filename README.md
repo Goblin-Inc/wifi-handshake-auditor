@@ -2,6 +2,8 @@
 
 > 🌐 **Language:** **English** | [Русский (README_Ru.md)](README_Ru.md)
 
+«for authorized / educational use only»
+
 An interactive Bash script that automates WPA/WPA2 wireless security auditing using the `aircrack-ng` suite.
 
 ## ✨ Features
